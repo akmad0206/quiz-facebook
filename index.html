@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACEBOOK QUIZ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>FACEBOOK FOR DIGITAL MARKETING</h1>
+        <!-- Tombol Navigasi -->
+    </header>
+    <nav id="main-navigation">
+        <button class="nav-btn" onclick="navigateTo('quiz-section')">
+            <i class="fas fa-home"></i>
+        </button>
+        <button class="nav-btn" onclick="navigateTo('profile-section')" id="profile-btn">
+            <i class="fas fa-user-circle"></i>
+        </button>
+    </nav>
+
+    <main>
+        <!-- Section Quiz -->
+        <section id="quiz-section">
+            <h2 class="section-title">Quiz Questions</h2>
+            <form id="quiz-form">
+                <div class="quiz-question">
+                    <p>1. One of the benefits of using Facebook for marketing is..</p>
+                    <label><input type="radio" name="question1" value="A" required> A. Facebook allows ads to reach a very large audience.</label><br>
+                    <label><input type="radio" name="question1" value="B"> B. Facebook allows marketing only for digital products.</label><br>
+                    <label><input type="radio" name="question1" value="C"> C. Facebook can only be used by users with a premium account.</label>
+                </div>
+                <div class="quiz-question">
+                    <p>2. How does Facebook help measure the success of ads? </p>
+                    <label><input type="radio" name="question2" value="A" required> A. By providing weekly reports on the number of clicks and conversions.</label><br>
+                    <label><input type="radio" name="question2" value="B"> B. By providing analytical tools that show metrics such as reach, engagement, and conversions.</label><br>
+                    <label><input type="radio" name="question2" value="C"> C. By sending emails every time an ad is viewed by a user</label>
+                </div>
+                <div class="quiz-question">
+                    <p>3. Which important element must be filled in when creating a business page on Facebook? </p>
+                    <label><input type="radio" name="question3" value="A" required>A. Date of birth and relationship status</label><br>
+                    <label><input type="radio" name="question3" value="B"> B. Bank account number and home address</label><br>
+                    <label><input type="radio" name="question3" value="C"> C. Business name and profile picture</label>
+                </div>
+                <div class="quiz-question">
+                    <p>4. What is meant by Facebook Groups and how is it beneficial for businesses? </p>
+                    <label><input type="radio" name="question4" value="A" required> A. Facebook Groups is a feature for sharing personal status updates, which cannot be used for business.</label><br>
+                    <label><input type="radio" name="question4" value="B"> B. Facebook Groups is a place for people with similar interests to gather and can be used to build communities and interact directly with customers.</label><br>
+                    <label><input type="radio" name="question4" value="C"> C. Facebook Groups is only used for advertising products at low costs, without interacting with customers.</label>
+                </div>
+                <div class="quiz-question">
+                    <p>5. What is targeting in Facebook Ads and why is it important? </p>
+                    <label><input type="radio" name="question5" value="A" required> A. Targeting in Facebook Ads is selecting an audience based on location and time, and it is important to ensure the ads are only seen by people in specific areas.</label><br>
+                    <label><input type="radio" name="question5" value="B"> B. Targeting in Facebook Ads is selecting an audience based on demographics, interests, and behaviors, and it is important to ensure the ads are seen by relevant people.</label><br>
+                    <label><input type="radio" name="question5" value="C"> C. Targeting in Facebook Ads is selecting the most attractive type of image, and it is important to increase ad clicks.</label>
+                </div>
+                <button type="submit" id="submit-quiz">Submit Quiz</button>
+            </form>
+            <p id="quiz-result"></p>
+        </section>
+<br><br><br>
+        <!-- Section Profil -->
+        <h2 class="section-title">Profile Cards</h2>
+        <section id="profile-section">
+            <div class="card">
+                <img src="img/myphoto.jpg" alt="My Profile Picture">
+                <div class="card-content">
+                    <p>Akmad Khumaedi</p>
+                    <p>NIM 12323051</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/ayuu.jpg" alt="Profile Picture">
+                <div class="card-content">
+                    <p>Ayu Oktavia</p>
+                    <p>NIM 12323050</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/FANI.jpg" alt="Profile Picture">
+                <div class="card-content">
+                    <p>Fani Laraswati</p>
+                    <p>NIM 12323044</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/AHWA.jpg" alt="Profile Picture">
+                <div class="card-content">
+                    <p>Ahwa Ramadan</p>
+                    <p>NIM 12323045</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/TEDI.jpg" alt="Profile Picture">
+                <div class="card-content">
+                    <p>Tedi Septiana</p>
+                    <p>NIM 12323075</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/afrizal.jpg" alt="Profile Picture">
+                <div class="card-content">
+                    <p>Afrizal Amrullah</p>
+                    <p>NIM 12323048</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/eka.jpg" alt="Profile Picture">
+                <div class="card-content">
+                    <p>Eka Putri Febriyanti Languy</p>
+                    <p>NIM 12323047</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/habibi.jpg" alt="Profile Picture">
+                <div class="card-content">
+                    <p>Ahmad Nahdli Habibi</p>
+                    <p>NIM 12323074</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Facebook Quiz. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
